@@ -1,5 +1,5 @@
 window.onload = () => {
-  debugger;
+  //debugger;
   // render initial state
   const currentDisplayed = strings.displayed;
   const currentArray = strings[currentDisplayed];

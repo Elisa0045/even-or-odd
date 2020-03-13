@@ -1,4 +1,4 @@
-debugger;
+//debugger;
 
 const renderList = (array, category) => {
   const element_div = document.createElement("div");
