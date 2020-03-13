@@ -6,12 +6,12 @@ window.onload = () => {
 
   const currentListComponent = renderList(currentArray, currentDisplayed);
 
-  const listContainer = document.getElementById('selected');
-  listContainer.innerHTML = '';
+  const listContainer = document.getElementById("selected");
+  listContainer.innerHTML = "";
   listContainer.appendChild(currentListComponent);
 
   // log initial state
   log.push({
     initialStrings: JSON.parse(JSON.stringify(strings))
   });
-}
+};
